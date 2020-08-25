@@ -21,6 +21,7 @@ public class SampleSelGoogleTest1 {
 	@Test
 	public void sampleSelGoogleTest1() {
 		driver.get("http://www.google.com/");
+		System.out.println("Sample statement ....");
 		System.out.println("driver.getTitle() " + driver.getTitle());
 		System.out.println("Expected String " + "Google");
 		Assert.assertTrue(driver.getTitle().contains("Google"));
